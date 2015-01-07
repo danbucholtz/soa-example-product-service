@@ -1,0 +1,23 @@
+{
+	"name": "soa-example-product-service",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"dependencies": {
+		"connect": "2.14.2",
+		"connect-redis" : "1.4.x",
+        "ejs": "0.8.5",
+        "express": "3.*",
+        "mongoose": "3.8.8",
+        "node-uuid" : "1.4.1",
+        "passport": "*",
+        "passport-local": "*",
+		"q" : "1.0.1",
+		"soa-example-core-service": "git://github.com/danbucholtz/soa-example-core-service",
+		"soa-example-core-utils": "git://github.com/danbucholtz/soa-example-core-utils",
+		"soa-example-logging-service-api" : "git://github.com/danbucholtz/soa-example-logging-service-api",
+    	"soa-example-service-config": "git://github.com/danbucholtz/soa-example-service-config"
+    }
+}
