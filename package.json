@@ -15,6 +15,7 @@
         "passport": "*",
         "passport-local": "*",
 		"q" : "1.0.1",
+		"soa-example-category-service-api" : "git://github.com/danbucholtz/soa-example-category-service-api",
 		"soa-example-core-service": "git://github.com/danbucholtz/soa-example-core-service",
 		"soa-example-core-utils": "git://github.com/danbucholtz/soa-example-core-utils",
 		"soa-example-logging-service-api" : "git://github.com/danbucholtz/soa-example-logging-service-api",
